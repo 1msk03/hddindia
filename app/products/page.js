@@ -1,9 +1,9 @@
-import Products from "@/components/home/Products";
+import Products from '@/app/components/home/Products';
 
-export default function Page(){
-    return(
-        <>
-        <Products/>
-        </>
-    )
+export default function Page() {
+  return (
+    <>
+      <Products />
+    </>
+  );
 }
