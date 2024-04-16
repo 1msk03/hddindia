@@ -123,7 +123,7 @@ const MobileNav = ({ onLinkClick }) => {
        Support
           </Link>
           <Link
-         href={'/contact'}
+         href={'/contact-us'}
             onClick={handleLinkClick}
             className="text-[17px] font-medium"
           >

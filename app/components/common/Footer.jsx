@@ -27,21 +27,21 @@ const Footer = () => {
                 <p className='text-[16px]'>Location</p>
               </Link>
               <Link
-                href={'/'}
+                href={'tel:+919785111997'}
                 className='flex justify-start items-center gap-2 hover:text-primary'
               >
                 <IoCallSharp className='text-[16px]' />
                 <p className='text-[16px]'>Er. Vipin Kabra : +91-9785111997</p>
               </Link>
               <Link
-                href={'/'}
+                href={'tel:+919214507321'}
                 className='flex justify-start items-center gap-2 hover:text-primary'
               >
                 <IoCallSharp className='text-[16px]' />
                 <p className='text-[16px]'>CA. Ankur Kabra : +91-9214507321</p>
               </Link>
               <Link
-                href={'/'}
+                href={'mailto:info@hddindia.com'}
                 className='flex justify-start items-center gap-2 hover:text-primary'
               >
                 <IoMdMail className='text-[16px]' />

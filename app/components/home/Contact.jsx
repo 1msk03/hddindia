@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import React, { useState } from 'react'
 
 const mapStyle = {
@@ -17,10 +18,10 @@ const Contact = () => {
       <h3 className="text-[#0c0c0c] text-[32px] font-bold mt-36 mb-8">CONTACT <span className="text-primary">US</span></h3>
        <div className='flex lg:flex-row flex-col justify-center items-start gap-10'>
         <div className='lg:w-[50%] w-full'>
-            <p className='text-[16px] pb-5'>Er. Vipin Kabra : +91-9785111997</p>
-            <p className='text-[16px] pb-5'>CA. Ankur Kabra : +91-9214507321</p>
-            <p className='text-[16px] pb-5'>Email: caankurkabra@gmail.com</p>
-            <p className='text-[16px] pb-5'>Company Email: info@hddindia.com</p>
+            <p className='text-[16px] pb-5'>Er. Vipin Kabra : <Link href={'tel:+919785111997'}  className='hover:text-primary'>+91-9785111997</Link> </p>
+            <p className='text-[16px] pb-5'>CA. Ankur Kabra : <Link href={'tel:+919214507321'}  className='hover:text-primary'>+91-9214507321</Link></p>
+            <p className='text-[16px] pb-5'>Email: <Link href={'mailto:caankurkabra@gmail.com'} className='hover:text-primary'>caankurkabra@gmail.com</Link></p>
+            <p className='text-[16px] pb-5'>Company Email: <Link href={'mailto:info@hddindia.com'} className='hover:text-primary'>info@hddindia.com</Link></p>
             <p className='text-[16px] pb-5'>Head office Address: Khasra No. 369/360, Shree ji Industrial Area, Kali Doongri, Madanganj Kishangarh, Distt – Ajmer, Rajasthan, India</p>
             <p className='text-[16px] pb-5'>Branch office Address: Shed No. 12, 4 th stage, 4 th Main, 4 th Cross, woc road, rajaji nagar industrial town,Bangalore, Karnataka - 560044</p>
         </div>

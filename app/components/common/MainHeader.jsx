@@ -54,17 +54,33 @@ const MainHeader = () => {
             </Link>
           </li>
           <li className='hidden lg:flex relative group'>
-            <div className='flex justify-center items-center space-x-3'>
-              <Link
-                href={'/products'}
-                className={`hidden lg:flex text-[16px] px-[20px] uppercase ${
+            <div className={`flex justify-center items-center  space-x-3 px-[20px] text-[16px]  text-black uppercase ${
                   activeLink.includes('/products')
                     ? 'text-primary'
-                    : 'text-black hover:text-primary'
-                }`}
+                    : ' '
+                }`}>
+              <div
+              
+               
               >
                 Products
-              </Link>
+              </div>
+              <svg
+   
+    className={`w-2.5 h-2.5  `}
+    aria-hidden="true"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 10 6"
+  >
+    <path
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="m1 1 4 4 4-4"
+    />
+  </svg>
             </div>
             <div
               className={`absolute top-0 -left-4 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[200px] transform `}
